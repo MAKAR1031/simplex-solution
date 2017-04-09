@@ -1,0 +1,33 @@
+AnchorPane{
+	-fx-background-color: linear-gradient(to bottom right, white, lightblue);
+}
+
+TextArea, TextField, ConditionField, Label, .helpButton{
+	-fx-font-family: "Coursiva";
+	-fx-font-size: 14;
+}
+
+TextField, ConditionField {
+	-fx-background-radius: 20;
+}
+
+TextField:focused, ConditionField:focused{
+	-fx-border-color: rgb(0,128,255);
+	-fx-border-image-width: 2;
+	-fx-border-radius: 20;
+}
+
+.solveButton{
+	-fx-font-size: 20;
+	-fx-background-radius: 20;
+}
+
+.helpButton {
+	-fx-min-height: 40;
+	-fx-min-width: 40;
+	-fx-max-height: 30;
+	-fx-max-width: 30;
+	-fx-background-radius: 20;
+	-fx-font-weight: bold;
+	-fx-font-size: 16;
+}
